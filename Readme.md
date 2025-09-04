@@ -3,3 +3,4 @@ echo helloworld
 echo "hello world"
 echo 'hello world'
 
+Dont give any space between $( while writing scripts
