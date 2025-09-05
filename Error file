@@ -3,3 +3,10 @@
 ./firstscirpt.sh: line 3: syntax error near unexpected token `('
 ./firstscirpt.sh: line 3: `A=$ (date)'
  Error:- given space between $ and ( caused issue, post changing $( issue got fixed 
+.....................................................................................
+
+..........errors while excuting script2.................
+Script didnt worked because i given space in between A = $(hostname)
+post changing this to A=$(hostname), scirpt worked
+
+...........................................................................
