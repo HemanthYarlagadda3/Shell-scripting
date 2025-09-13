@@ -15,3 +15,7 @@ for version 2
    [ ! -d "$DIR" ] → checks if the given path is NOT a directory.
    find "$DIR" -maxdepth 1 -type f → searches inside the given directory ($DIR), but only at the first level (not going into subfolders). It lists only files (-type f).
 
+Day 6
+
+For userinput related files read command is case sensitive.
+
