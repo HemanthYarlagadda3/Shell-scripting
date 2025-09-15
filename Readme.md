@@ -19,3 +19,18 @@ Day 6
 
 For userinput related files read command is case sensitive.
 
+Script 7 
+
+  Basic match calculator , 
+
+   $((A / B)) is the correct way because:
+
+   $(...) = command substitution (runs external commands)
+
+  $((...)) = arithmetic expansion (does math inside bash)
+  
+   Spaces inside are optional, but recommended for readability
+   
+   must have spaces around it → if [ $operation == "+" ]
+
+   both will work if [ $operation == "+" ] and if [ "$operation" == "+" ]
