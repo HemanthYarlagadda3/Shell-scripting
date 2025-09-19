@@ -22,3 +22,10 @@ For user input related used Read command script failed later changed to read it 
  used c=$(A + B ) failed after chabging it to c=$((A + B))  ..it worked fine
 
 ......................................................................................
+
+..............Errors while executing script7.........................
+
+used : instead of ; after [ -f "$file" ] script failed post changes to if [ -f "$file" ]; then
+ it worked
+
+....................................................................................................................
