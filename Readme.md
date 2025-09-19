@@ -34,3 +34,8 @@ Script 7
    must have spaces around it → if [ $operation == "+" ]
 
    both will work if [ $operation == "+" ] and if [ "$operation" == "+" ]
+
+
+   script 9
+
+   This script will print first 10 lines of file and file name is taken as user input
