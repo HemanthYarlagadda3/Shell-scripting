@@ -39,3 +39,11 @@ Script 7
    script 9
 
    This script will print first 10 lines of file and file name is taken as user input
+
+   script 13
+
+   cp *.jpg "$D" copies all .jpg files to $D.
+
+2>/dev/null hides “No such file” errors if no .jpg files exist.
+
+$? checks if the cp command succeeded.
